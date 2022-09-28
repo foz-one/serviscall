@@ -1,6 +1,6 @@
-# Servis eCommerce Platform
+# Serviscall eCommerce Platform
 
-> eCommerce platform built with the MERN stack & Redux.
+> Serviscall eCommerce platform built with the MERN stack
 
 
 ## Features
@@ -19,15 +19,12 @@
 - Paystack / credit card integration
 - Database seeder (products & users)
 
-## Note on Issues
-Please do not post issues here that are related to your own code when taking the course. Add those in the Udemy Q/A. If you clone THIS repo and there are issues, then you can submit
 
-## Usage
 
 
 ### Env Variables
 
-Create a .env file in then root and add the following
+Create a .env file in the root and add the following
 
 ```
 NODE_ENV = development
@@ -62,21 +59,6 @@ cd frontend
 npm run build
 ```
 
-There is a Heroku postbuild script, so if you push to Heroku, no need to build manually for deployment to Heroku
-
-### Seed Database
-
-You can use the following commands to seed the database with some sample users and products as well as destroy all data
-
-```
-# Import data
-npm run data:import
-
-# Destroy data
-npm run data:destroy
-```
-
-```
 Sample User Logins
 
 admin@example.com (Admin)
@@ -89,9 +71,5 @@ jane@example.com (Customer)
 123456
 ```
 
-
-## License
-
-The MIT License
 
 
