@@ -5,8 +5,8 @@
   "main": "server.js",
   "type": "module",
   "engines": { 
-    "npm" : ">=8.x.x",
-    "node" : ">=16.x.x"
+    "npm" : "8.x.x",
+    "node" : "16.x.x"
   },
   "scripts": {
     "start": "node backend/server",
